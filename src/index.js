@@ -17,7 +17,7 @@ db.once("open", () => {
   console.log("Connected successfully to MongoDB using Mongoose");
 
   const app = express();
-  const port = 3020;
+  const port = 8080;
 
   app.use(express.static("static"));
   app.use(cors);
